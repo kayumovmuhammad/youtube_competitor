@@ -20,6 +20,11 @@ var themeDataDark = ThemeData(
     selectedItemColor: Colors.blueAccent,
     unselectedItemColor: Colors.white,
   ),
+  textButtonTheme: TextButtonThemeData(
+    style: TextButton.styleFrom(
+      iconColor: Colors.white,
+    ),
+  ),
 );
 
 var themeDataLight = ThemeData(
